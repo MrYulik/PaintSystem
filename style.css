@@ -1,0 +1,36 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    outline: none;
+}
+
+input, img
+{
+    position: absolute;
+    top: 5px;
+}
+
+input:nth-child(1) 
+{
+    left: calc(50% - 150px);
+}
+
+input:nth-child(2) 
+{
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+input:nth-child(3) 
+{
+    left: calc(50% + 100px);
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 0 10px 0 10px;
+    border: 2px dotted white;
+}
